@@ -1,0 +1,36 @@
+.modal-body-title, .modal-body-text {
+    text-align: center;
+}
+
+.modal-body-title {
+    margin-top: 75px;
+}
+
+.btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 75px;
+}
+
+.call-circle-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    color: black;
+    font-weight: bold;
+    background-color: greenyellow;
+    transition: 200ms;
+    cursor: pointer;
+}
+
+.call-circle-btn:hover {
+    background-color: green;
+}
+
+.call-circle-btn:active {
+    transform: scale(.96);
+}
